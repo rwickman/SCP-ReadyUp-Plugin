@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Queue.cs" />
     <Compile Include="Commands\ReadyUp.cs" />
     <Compile Include="Commands\UnreadyUp.cs" />
     <Compile Include="Config.cs" />

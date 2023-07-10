@@ -11,7 +11,7 @@ namespace ReadyUpPlugin.Commands
     internal class UnreadyUp : ICommand
     {
         public string Command { get; } = "unready";
-        public string[] Aliases { get; } = { "Unready", "UR", "wait" };
+        public string[] Aliases { get; } = { "Unready", "UR", "wait", "w" };
         public string Description { get; } = "A command that indicates you are not ready.";
 
 
